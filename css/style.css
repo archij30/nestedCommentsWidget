@@ -1,0 +1,82 @@
+body {
+  width: 100vw;
+}
+#myInput {
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 1rem;
+    width: 70%;
+  }
+
+.row {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  padding: 0.2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.action-btn {
+  border: 1px solid gray;
+  font-size: 0.6rem;
+  border-radius: 5px;
+}
+
+.btn-add {
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+.container {
+  width: 100%;
+}
+.container#commentList {
+  /* border: 2px solid red;  */
+  padding: 0px;
+}
+  .parent {
+    padding: 10px;
+  }
+
+  .child {
+    padding: 20px;
+  }
+
+.single-comment-card {
+  background-color: white;
+  border: 2px solid gray;
+  width: 400px;
+  border-radius: 10px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.info-text {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.red-btn {
+  color: red;
+  border-color: red;
+}
+
+.green-btn {
+  color: green;
+  border-color: green;
+}
+
+.blue-btn {
+  color: blue;
+  border-color: blue;
+}
+
+.btns-container{
+  float: right;
+}
